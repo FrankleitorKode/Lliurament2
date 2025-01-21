@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/EstiloUI.uss?fileID=7433441132597879392&amp;guid=619796dbf6859df48b92a97822945d94&amp;type=3#EstiloUI" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/FondoMenu.jpg?fileID=2800000&amp;guid=dca1235266eec7743be64f07a6fd723e&amp;type=3#FondoMenu&quot;); flex-shrink: 1;" />
+    <ui:VisualElement name="Menu" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0); background-image: none; flex-shrink: 0; position: absolute; height: 1025px; align-self: center; margin-top: 20px; margin-bottom: 20px;">
+        <ui:VisualElement name="LOGO" class="Logo" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 1000px; height: 300px; flex-shrink: 1; align-self: center; background-image: url(&quot;project://database/Assets/UI/Titulo.png?fileID=2800000&amp;guid=7f369eabe6c0695478cca542ee1da1ef&amp;type=3#Titulo&quot;);" />
+        <ui:VisualElement name="Buttons" style="flex-grow: 1;">
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" class="Boton" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            <ui:Button text="Credits" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Boton" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            <ui:Button text="Options" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Boton" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Boton" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" style="flex-grow: 1; justify-content: center;">
+            <ui:Label tabindex="-1" text="Nombre: Frank Reise Tur" parse-escape-sequences="true" display-tooltip-when-elided="true" class="FootText" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
